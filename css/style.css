@@ -1,0 +1,167 @@
+header{
+    background-image: url('../img/bg-header.png');
+    background-position: center;
+    background-size: cover;
+    background-size: fixed;
+    min-height: 100vh;
+}
+
+nav{
+    width: 100%;
+    background-color: #0DA643;
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    align-items: center;
+}
+
+nav #logo{
+    padding-left: 2%;
+    padding-top: 5px;
+   
+}
+
+#logo a{
+    text-decoration: none;
+    color: #13F261;
+}
+nav #logo h1{
+    font-family: 'Teko';
+    font-size: 3rem;
+}
+
+nav ul{
+    width: 30%;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+}
+
+nav ul li a{
+    font-family: 'Space Mono';
+    text-decoration:none;
+    font-size: 1.3rem;
+    color: white;
+    transition: 0.3s color;
+}
+
+nav ul li a:hover{
+    color: #2e2e2e;
+}
+
+.header-content{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 3%;
+}
+
+.header-content h1{
+    font-family: 'teko';
+    font-size: 180px;
+    color: #16F275;
+}
+
+.header-content p{
+    font-family: 'Space Mono';
+    color:white;
+    font-size: 2.5rem;
+    width: 60%;
+    line-height: 3.2rem;
+}
+
+#cursos{
+    min-height: 94vh;
+    background-color: #D9D9D9;
+}
+
+.head-cursos{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 5%;
+    align-items: center;
+}
+
+#title-cursos{
+    font-family: 'Teko';
+    font-size: 4.5rem;
+    color: #393939;
+}
+
+.search-bar{
+    background-color: white;
+    padding:2px 10px;
+    min-width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.search-bar i{
+    color: #B3B3B3;
+}
+
+.search-bar input{
+    border: 0;
+    outline: 0;
+    font-size: 1.2rem;
+    font-family: 'Space Mono';
+    color: #393939;
+}
+
+.container-cursos{
+    width: 85%;
+    margin-top: 40px;
+}
+
+.curso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #393939;
+    flex-direction: column;
+    width: 23%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.curso-row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.curso-window{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+
+.curso-window i{
+    color: #13F261;
+    font-size: 4rem;
+}
+
+.curso h5{
+    font-family: 'Teko';
+    color:#16F275;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
