@@ -80,7 +80,7 @@ nav ul li a:hover{
 
 .head-cursos{
     display: flex;
-    width: 80%;
+    width: 90%;
     justify-content: space-between;
     margin-top: 5%;
     align-items: center;
@@ -115,21 +115,28 @@ nav ul li a:hover{
 }
 
 .container-cursos{
-    width: 85%;
+    width: 95%;
     margin-top: 40px;
 }
 
 .curso{
     display: flex;
-    justify-content: center;
     align-items: center;
-    justify-content: center;
     background-color: #393939;
     flex-direction: column;
-    width: 23%;
+    width: 95%;
     padding: 10px;
     border-radius: 15px;
+    height: 25vh;
+    transition: 0.3s transform;
 }
+
+.curso:hover{
+    transform: scale(1.02);
+    /* box-shadow: 0 0 10px #4d4d4d; */
+}
+
+
 
 .curso-row{
     display: flex;
@@ -137,10 +144,16 @@ nav ul li a:hover{
     margin-top: 15px;
 }
 
+.curso-row a{
+    width: 22.5%;
+    text-decoration: none;
+    color: unset;
+}
+
 .curso-window{
     background-color: black;
     width: 100%;
-    height: 100px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
