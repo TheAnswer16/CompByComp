@@ -1,3 +1,29 @@
+body{
+    background-color: #D9D9D9;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #8f8f8f #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255, 0);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #8f8f8f;
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+  }
+
 header{
     background-image: url('../img/bg-header.png');
     background-position: center;
@@ -75,7 +101,6 @@ nav ul li a:hover{
 
 #cursos{
     min-height: 94vh;
-    background-color: #D9D9D9;
 }
 
 .head-cursos{
@@ -179,3 +204,117 @@ nav ul li a:hover{
     align-items: center;
     justify-content: center;
 }
+
+/* -- CSS DAS AULAS --*/
+
+.container-aula{
+    height:auto;
+    display: flex;
+}
+
+.side-bar, .container-video{
+    min-height: 93vh;
+}
+
+.side-bar{
+    display: flex;
+    font-family: 'Teko';
+    top: 0;
+    position: sticky;
+}
+
+.side-bar .itens{
+    background-color: #393939;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding: 20px 0 0 20px;
+}
+
+.title-sidebar{
+    color: white;
+    font-size: 1.75rem;
+}
+
+.aulas-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.aulas-links a{
+    margin-top: 10%;
+    text-decoration: none;
+    color: #B3B3B3;
+    display: flex;
+    align-items: center;
+    font-size: 1.70rem;
+    transition: 0.3s color;
+}
+
+.aulas-links a:hover{
+    color: #4deb91;
+}
+
+.active-class{
+    color: #16F275!important;
+    font-weight: 500;
+}
+
+.aulas-links span{
+    margin-bottom: 5px;
+    margin-right: 2%;
+}
+
+.ctrl-nav{
+    font-size: 3.5rem;
+    color: #626262;
+    cursor: pointer;
+}
+
+.ctrl-nav:hover{
+    color: #055a23;
+}
+
+.container-video{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 100%;
+    flex-direction: column;
+}
+
+.container-video iframe{
+    width: 50vw;
+    height: 60vh;
+}
+
+.title-aula{
+    width: 55vw;
+    margin: 4% 0 2% 0;
+}
+
+.title-aula h1{
+    font-family: 'Teko';
+    font-size: 3rem;
+    color: #393939;
+}
+
+.info-aula{
+    width:50vw ;
+    font-family: 'Teko';
+    margin-top: 3%;
+}
+
+.author{
+    font-size: 2rem;
+    color: #393939;
+}
+
+.desc-aula{
+    margin-top: 1%;
+    color: #797979;
+    font-size: 1.5rem;
+    margin-bottom: 4%;
+}
+
