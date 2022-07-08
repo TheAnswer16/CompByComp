@@ -5,6 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!-- Favicon -->
+            <link rel="icon" type="image/x-icon" href="img/icon.png">
+            <!--Dados SEO-->
+            <meta name="description" content="COMP FOR ALL A plataforma onde estudantes podem aprimorar seus conhecimentos">
+            <meta name="keywords" content="COMP FOR ALL ">
+            <meta name="author" content="Alex">
+            <meta name="author" content="Fortunato">
+            <meta name="author" content="Pedro">
+            <meta name="author" content="Philip">
+            <!--metadados para compartilhamento no facebook e twitter.-->
+    
+            <meta property="og:title" content="COMP FOR ALL A plataforma onde estudantes podem aprimorar seus conhecimentos">
+            <meta property="og:description" content=" A plataforma onde estudantes podem aprimorar seus conhecimentos.">
+
     <title> Introdução à lógica programação e Algotitmos </title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +37,21 @@
 </head>
 
 <body>
-    <nav>
+    <section class="open-mode" onclick="toggleMobileNav()"></section>
+    <div id="mb-nav">
+        <nav> 
+            <a href="#"> Membros </a>
+            <a href="../../cursos.html"> Cursos </a>
+            <a href="#"> Contato </a>
+        </nav>
+        <span class="material-symbols-outlined close-nav" onclick="toggleMobileNav()">
+            menu_open
+            </span>
+    </div>
+    <nav id="web-nav">
+        <span class="material-symbols-outlined open-nav" onclick="toggleMobileNav()" >
+            menu
+        </span>
         <div id="logo"> <a href="../../index.html">
                 <h1> C4A </h1>
             </a> </div>
@@ -77,6 +106,7 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="../../js/aula.js"></script>
+    <script src="../../js/main.js"></script>
 </body>
 
 </html>
