@@ -196,15 +196,20 @@ header{
 .container-cursos{
     width: 95%;
     margin-top: 40px;
-    padding-bottom: 40px;
+    padding: 0 40px 40px 40px;
 }
+
+.container-cursos a{
+    flex-grow: 1;
+}
+
 
 .curso{
     display: flex;
     align-items: center;
     background-color: #393939;
     flex-direction: column;
-    width: 95%;
+    width: 85%;
     padding: 10px;
     border-radius: 15px;
     height: 25vh;
@@ -220,7 +225,6 @@ header{
 
 .curso-row{
     display: flex;
-    justify-content: space-between;
     margin-top: 15px;
 }
 
@@ -365,6 +369,7 @@ header{
 .author{
     font-size: 2rem;
     color: #393939;
+    margin-top: 15px;
 }
 
 .desc-aula{
@@ -472,6 +477,10 @@ footer a{
         margin-top: 3%;
     }
 
+    .curso{
+        width: 100%;
+    }
+
     .side-bar .itens{
         width: 80vw;
         top: 0;
@@ -532,11 +541,10 @@ footer a{
         padding: 10px 5px;
         color: white;
         font-family: 'Space Mono';
-    }
-    
-    footer{
         font-size: 0.8rem;
+
     }
+
     
     .license{
         flex-direction: column;
