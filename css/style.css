@@ -365,6 +365,7 @@ header{
 .author{
     font-size: 2rem;
     color: #393939;
+    margin-top: 15px;
 }
 
 .desc-aula{
@@ -389,6 +390,7 @@ footer{
     padding: 10px 5px;
     color: white;
     font-family: 'Space Mono';
+    min-height: 30vh;
 }
 
 footer a{
